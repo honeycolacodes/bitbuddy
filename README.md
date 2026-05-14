@@ -16,3 +16,20 @@ A virtual pet that lives in your terminal. Feed it, play with it, and keep it al
 3. Name your buddy and keep them alive!
 
 ## Example
+```
+==============================
+  🐾 Biscuit the BitBuddy
+==============================
+  Age:       3 days
+  Hunger:    🟥🟥🟥⬜⬜⬜⬜⬜⬜⬜ 30/100
+  Happiness: 🟨🟨🟨🟨🟨🟨⬜⬜⬜⬜ 60/100
+  Energy:    🟩🟩🟩🟩🟩🟩🟩🟩⬜⬜ 80/100
+==============================
+  Mood: 😄 Happy and thriving!
+```
+
+## Tech used
+- Python 3
+- `json` — saves your buddy between sessions
+- `os` — file management
+- `random` — keeps playtime unpredictable
